@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "docubot",
+  "version": "1.0.0",
+  "description": "Discord Bot for managing file management via SharePoint",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "deploy": "tsx src/deploy-commands.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AU-SAT/DocuBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AU-SAT/DocuBot/issues"
+  },
+  "homepage": "https://github.com/AU-SAT/DocuBot#readme",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
